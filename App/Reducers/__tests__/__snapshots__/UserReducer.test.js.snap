@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`returns the same state on an unhandled action 1`] = `
+Object {
+  "user": Object {},
+  "usersList": Object {
+    "data": Array [],
+    "error": null,
+    "isLoading": false,
+  },
+}
+`;

@@ -1,0 +1,359 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Snapshot correctly 1`] = `
+<RCTSafeAreaView
+  emulateUnlessSupported={true}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "transparent",
+        "flex": 1,
+      },
+      Object {
+        "backgroundColor": undefined,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "flex": 1,
+        },
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignSelf": "center",
+          "flex": 1,
+          "marginTop": 130,
+          "width": "85%",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "fontSize": 25,
+            },
+            Array [
+              Object {
+                "marginVertical": 20,
+                "textAlign": "center",
+              },
+              Object {
+                "color": undefined,
+              },
+            ],
+          ]
+        }
+        xxlarge={true}
+      >
+        Sign In
+      </Text>
+      <TextInput
+        autoCapitalize="none"
+        keyboardType="email-address"
+        onChangeText={[Function]}
+        onSubmitEditing={[Function]}
+        placeholder="Email"
+        returnKeyType="next"
+        style={
+          Array [
+            Object {
+              "borderBottomWidth": 1,
+              "height": 50,
+              "marginBottom": 15,
+              "paddingTop": 10,
+            },
+            Object {
+              "borderColor": undefined,
+              "color": undefined,
+            },
+          ]
+        }
+        testID="email"
+        value=""
+      />
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+          }
+        }
+      >
+        <TextInput
+          autoCapitalize="none"
+          onChangeText={[Function]}
+          onSubmitEditing={[Function]}
+          placeholder="Password"
+          returnKeyType="done"
+          secureTextEntry={true}
+          style={
+            Array [
+              Array [
+                Object {
+                  "borderBottomWidth": 1,
+                  "height": 50,
+                  "marginBottom": 15,
+                  "paddingTop": 10,
+                },
+                Object {
+                  "borderColor": undefined,
+                  "color": undefined,
+                },
+              ],
+              Object {
+                "flex": 1,
+              },
+            ]
+          }
+          testID="password"
+          value=""
+        />
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          nativeID="animatedComponent"
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "borderBottomColor": undefined,
+                "borderBottomWidth": 1,
+                "height": 50,
+                "justifyContent": "center",
+                "width": 50,
+              }
+            }
+          >
+            <Image
+              resizeMode="contain"
+              source={
+                Object {
+                  "testUri": "../../../App/Theme/Images/password_open.png",
+                }
+              }
+              style={
+                Object {
+                  "height": 23,
+                  "width": 23,
+                }
+              }
+            />
+          </View>
+        </View>
+      </View>
+      <Text
+        style={
+          Array [
+            Object {
+              "fontSize": 14,
+            },
+            Array [
+              Object {
+                "paddingVertical": 5,
+                "textAlign": "right",
+              },
+              Object {
+                "color": undefined,
+              },
+            ],
+          ]
+        }
+      >
+        Forgot Password?
+      </Text>
+      <View
+        style={
+          Array [
+            Object {
+              "elevation": 5,
+              "shadowColor": "#000",
+              "shadowOffset": Object {
+                "height": 2,
+                "width": 0,
+              },
+              "shadowOpacity": 0.25,
+              "shadowRadius": 3.84,
+            },
+            Object {
+              "alignSelf": "center",
+            },
+            Object {
+              "opacity": 1,
+            },
+            Object {
+              "marginTop": 50,
+            },
+          ]
+        }
+      >
+        <View
+          accessibilityState={
+            Object {
+              "disabled": false,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          nativeID="animatedComponent"
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+          testID="btnSubmit"
+        >
+          <LinearGradient
+            style={
+              Object {
+                "alignItems": "center",
+                "borderRadius": 28,
+                "height": 56,
+                "justifyContent": "center",
+                "minWidth": 160,
+                "paddingHorizontal": 25,
+              }
+            }
+          >
+            <Text
+              large={true}
+              style={
+                Array [
+                  Object {
+                    "fontSize": 16,
+                  },
+                  Array [
+                    Object {
+                      "color": undefined,
+                    },
+                  ],
+                ]
+              }
+            >
+              Log in
+            </Text>
+          </LinearGradient>
+        </View>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "alignSelf": "center",
+              "backgroundColor": "transparent",
+              "flex": 1,
+              "justifyContent": "flex-end",
+              "marginBottom": 30,
+            },
+            undefined,
+          ]
+        }
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Text
+            large={true}
+            style={
+              Array [
+                Object {
+                  "fontSize": 16,
+                },
+                Array [
+                  Object {
+                    "paddingVertical": 10,
+                  },
+                  Object {
+                    "color": undefined,
+                  },
+                  Object {},
+                ],
+              ]
+            }
+          >
+            Need to create an account?
+          </Text>
+          <View
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            nativeID="animatedComponent"
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <Text
+              large={true}
+              style={
+                Array [
+                  Object {
+                    "fontSize": 16,
+                  },
+                  Array [
+                    Object {
+                      "paddingHorizontal": 5,
+                      "paddingVertical": 10,
+                    },
+                    Object {
+                      "color": undefined,
+                    },
+                    Object {},
+                  ],
+                ]
+              }
+            >
+              Sign up here
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</RCTSafeAreaView>
+`;
